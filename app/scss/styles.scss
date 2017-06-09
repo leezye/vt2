@@ -1,0 +1,83 @@
+@import "bootstrap";
+body {
+    font-family: Avenir;
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+}
+
+.jumbotron1 {
+    // background: url('https://www.toptal.com/designers/subtlepatterns/patterns/whirlpool.png');
+    color: #fff;
+    //background-attachment:fixed;
+    padding: 4rem;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    height: 100vh;
+    h1 {
+        font-family: 'Nothing You Could Do';
+        font-size: 9rem !important;
+        color: indianred
+    }
+    div {
+        padding: 4rem;
+    }
+    p {
+        font-style: italic;
+        font-size: 90%
+    }
+}
+
+.jumbotron2 {
+    background: url('https://www.toptal.com/designers/subtlepatterns/patterns/zig%20zag%20wool.png');
+    color: #fff;
+    background-attachment: fixed;
+    padding: 5rem;
+    p {
+        text-align: left;
+        font-weight: 300;
+    }
+}
+
+.loppy {
+    padding: 3rem 4rem;
+}
+
+blockquote {
+    text-align: left;
+    border-left: 1px solid #eee;
+    padding-left: 1rem;
+    width: 70%;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+button {
+    background: #222;
+    color: #ccc;
+    padding: 1rem !important;
+    font-family: 'Open Sans';
+    &:hover {
+        background: indianred;
+    }
+}
+
+audio {
+    display: none
+}
