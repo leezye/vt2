@@ -1,0 +1,25 @@
+@import "variables";
+
+// spacing helpers
+$s-xl: $spacer * 3; //x-large
+$s-l: $spacer * 2; //large
+$s-m: $spacer * 1.5; //medium
+$s: $spacer; //normal
+$s-s: $spacer / 1.5; //small
+$s-xs: $spacer / 2; //xx-small
+
+// font size helpers
+$font-size: (
+  "f-xs": 80%,
+  "f-s": 95%,
+  "f-r": $font-size-base,
+  "f-m": $font-size-base * 1.3,
+  "f-l": $font-size-base * 1.5,
+  "f-xl": $font-size-base * 2,
+);
+
+@each $font, $size in $font-size {
+  .#{$font} {
+    font-size: $size 
+  }
+}
