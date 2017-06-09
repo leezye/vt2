@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		el: '#app',
 		data: {
 			ViewComponent: {
+                // root container
 				render: h => h('div', 'loading...')
 			}
 		},
