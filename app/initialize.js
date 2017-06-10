@@ -15,6 +15,7 @@ import routes from './routes'
 
 //create Vue instance with basic routing 
 document.addEventListener('DOMContentLoaded', function() {
+    
     // load vue 
     var vue = require('vue');
     
@@ -39,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
     
-    //routing
+    //routing using page.js
     Object.keys(routes).forEach(route => {
         const Component = require('./pages/' + routes[route] + '.vue')
         page(route, () => app.ViewComponent = Component)
