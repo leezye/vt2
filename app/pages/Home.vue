@@ -1,9 +1,8 @@
 <template>
        
 <main-layout>
-<transition appear-class="custom-appear-class"
-   appear-active-class="custom-appear-active-class"  appear>  
-<div>
+<transition appear>  
+<div class="animated slideInLeft">
           
              <p class="bs-component">
               <a href="#" class="btn btn-default">Default</a>

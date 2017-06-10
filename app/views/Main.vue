@@ -24,12 +24,10 @@ import MainNav from '../components/MainNav.vue';
 
 
 <style scoped>   
-.custom-appear-active-class {
-  transition: opacity 0.7s ease-out;
-}
+.slideInDown {
 
-.custom-appear-class
-{
-  opacity: 0;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 </style>
