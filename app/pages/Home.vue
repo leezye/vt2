@@ -71,7 +71,7 @@
             <h2 id="type-blockquotes">Blockquotes</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="fade-reveal row">
           <div class="col-lg-6">
             <div class="bs-component">
               <blockquote>

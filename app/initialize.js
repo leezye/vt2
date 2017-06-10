@@ -2,6 +2,7 @@
 import Vue from 'vue'
 import page from 'page'
 import 'vueify/lib/insert-css'
+ 
 
 // main app
 import App from './app.vue'
@@ -15,16 +16,9 @@ import routes from './routes'
 
 //create Vue instance with basic routing 
 document.addEventListener('DOMContentLoaded', function() {
-    
+
     // load vue 
     var vue = require('vue');
-    
-    // load scrollreveal 
-    var ScrollReveal = require('scrollreveal');
-    window.sr = ScrollReveal({
-        reset: true
-    });
-    sr.reveal('.fade-reveal');
 
     // create vue instance
     const app = new Vue({
@@ -46,6 +40,5 @@ document.addEventListener('DOMContentLoaded', function() {
         page(route, () => app.ViewComponent = Component)
     })
     page('*', () => app.ViewComponent = require('./pages/404.vue'))
-    page()
-
+    page() 
 });

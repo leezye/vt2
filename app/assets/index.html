@@ -52,6 +52,15 @@
     <script>
         require('initialize');
     </script>
+    <script src="http://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.sr = ScrollReveal({
+                reset: true
+            });
+            sr.reveal('.fade-reveal');
+        });
+    </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function(b, o, i, l, e, r) {

@@ -15,7 +15,8 @@ exports.plugins = {
 	},
 	sass: {
 		options: {
-			includePaths: ['node_modules/bootstrap/scss']
+			includePaths: 
+            ['node_modules/bootstrap/scss'],
 		}
 	}
 }
