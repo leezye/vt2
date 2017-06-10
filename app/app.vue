@@ -1,4 +1,5 @@
-<template>
+// routed links
+ <template>
   <a
     v-bind:href="href"
     v-bind:class="{ active: isActive }"
@@ -24,7 +25,4 @@
 </script>
 
 <style scoped>
-  .active {
-    color: cornflowerblue;
-  }
 </style>

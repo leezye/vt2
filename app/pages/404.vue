@@ -1,13 +1,11 @@
 <template>
   <main-layout>
-    <p>About page</p>
-    {{ value }}
+    <p>Page not found</p>
   </main-layout>
 </template>
 
 <script>
-  import Message from './Hello.vue'
-  import MainLayout from '../layouts/Main.vue'
+  import MainLayout from '../views/Main.vue'
 
   export default {
     components: {

@@ -1,14 +1,26 @@
+//import vue 
 import Vue from 'vue'
 import page from 'page'
 import 'vueify/lib/insert-css'
+
+// main app
 import App from './app.vue'
-import Hello from './components/Hello'
-import About from './components/About'
+
+//components
+import Home from './pages/Home'
+import About from './pages/About'
+
+//routes
 import routes from './routes'
 
+//create Vue instance with basic routing 
 document.addEventListener('DOMContentLoaded', function() {
 	// load vue 
 	var vue = require('vue');
+    var ScrollReveal = require('scrollreveal');
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.fade-reveal');
+
 	const app = new Vue({
 		el: '#app',
 		data: {
@@ -22,10 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	})
 	Object.keys(routes).forEach(route => {
-		const Component = require('./components/' + routes[route] + '.vue')
+		const Component = require('./pages/' + routes[route] + '.vue')
 		page(route, () => app.ViewComponent = Component)
 	})
-	page('*', () => app.ViewComponent = require('./components/404.vue'))
+	page('*', () => app.ViewComponent = require('./pages/404.vue'))
 	page()
-    
+      
 });

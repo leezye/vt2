@@ -3,7 +3,10 @@ exports.files = {
 		joinTo: 'app.js'
 	},
 	stylesheets: {
-		joinTo: 'app.css'
+		joinTo: 'app.css',
+        order: {
+        after: ["app/scss/components/*.scss"] // concat app.css last
+      }
 	}
 };
 exports.plugins = {

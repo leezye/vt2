@@ -1,8 +1,8 @@
 {
   "name": "brunch-app",
-  "description": "Brunch.io application",
+  "description": "Brunch with VueJS + Bootstrap 4",
   "private": true,
-  "author": "Brunch",
+  "author": "Brunch + Leezy",
   "version": "0.0.1",
   "repository": "",
   "scripts": {
@@ -10,6 +10,9 @@
     "build": "brunch build --production"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "page": "^1.7.1",
+    "scrollreveal": "^3.3.5",
     "vue": "^2.3.3"
   },
   "devDependencies": {
