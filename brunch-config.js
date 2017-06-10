@@ -5,7 +5,7 @@ exports.files = {
 	stylesheets: {
 		joinTo: 'app.css',
         order: {
-        after: ["app/scss/components/*.scss"] // concat app.css last
+        after: ["app/scss/components/*.scss"] // concat component sass last
       }
 	}
 };
