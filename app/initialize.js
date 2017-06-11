@@ -14,8 +14,8 @@ import About from './pages/About'
 //routes
 import routes from './routes'
 
-//create Vue instance with basic routing 
-document.addEventListener('DOMContentLoaded', function() {
+//create Vue instance with basic routing
+window.addEventListener('DOMContentLoaded', function() {
 
     // load vue 
     var vue = require('vue');
@@ -42,3 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
     page('*', () => app.ViewComponent = require('./pages/404.vue'))
     page() 
 });
+
+
+
+
+
+

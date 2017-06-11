@@ -2,7 +2,7 @@
        
 <main-layout>
 <transition appear>  
-<div class="animated slideInLeft">
+<div class="animated fadeIn">
           
              <p class="bs-component">
               <a href="#" class="btn btn-default">Default</a>
@@ -71,7 +71,7 @@
             <h2 id="type-blockquotes">Blockquotes</h2>
           </div>
         </div>
-        <div class="fade-reveal row">
+        <div class="row" data-anijs="if: scroll, on: window, do: fadeInDown animated, before: $scrollReveal repeat">
           <div class="col-lg-6">
             <div class="bs-component">
               <blockquote>
@@ -88,6 +88,13 @@
               </blockquote>
             </div>
           </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate laudantium recusandae consequuntur suscipit, sit fugiat rerum, sequi quod, cum deserunt modi, repellat officiis ab harum molestias assumenda minus similique distinctio.</p>
+          <p>Esse fugit nobis neque maiores eveniet eius iure, consectetur nulla dolorum eligendi, omnis sed ipsa distinctio voluptas aperiam consequatur velit fuga, sunt. Iure porro quis suscipit placeat possimus doloremque! Eos.</p>
+          <p>Eligendi quos ullam hic maiores velit ipsa est. Praesentium nobis in nihil repellendus quas adipisci natus rerum beatae unde at vitae aliquam ullam inventore quos, atque exercitationem minima sapiente blanditiis.</p>
+          <p>Dignissimos nulla ducimus dolores, deserunt saepe doloremque amet quae. Cupiditate quidem excepturi asperiores accusamus, modi minus perspiciatis ut fugit aut, distinctio voluptate inventore quos! Autem earum facilis molestiae amet beatae!</p>
+          <p>Odit possimus, at consectetur adipisci incidunt sequi ea accusantium dolores, cumque, nobis aliquam quod inventore natus doloribus soluta nemo mollitia, maiores culpa similique quam ex. Minus, debitis numquam eum cumque.</p>
+          <p>Nobis quia modi, eius ex nam ea ad neque iusto accusantium cumque illo quam aspernatur ipsa labore explicabo deserunt asperiores vero dolorum voluptatum delectus hic in alias! Modi, doloribus, repudiandae?</p>
+          <p>Rerum ut sed consequuntur ipsa eaque est tenetur, fugit tempora eveniet numquam qui similique veniam exercitationem vero quaerat facilis expedita aliquam voluptate, deleniti atque et non ex! Debitis nobis, sed!</p>
         </div>
       </div>
     </transition>

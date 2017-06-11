@@ -21,13 +21,3 @@ import MainNav from '../components/MainNav.vue';
     }
   }
 </script>
-
-
-<style scoped>   
-.slideInDown {
-
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-</style>
